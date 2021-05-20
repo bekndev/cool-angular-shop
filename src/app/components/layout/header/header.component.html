@@ -1,0 +1,10 @@
+<header>
+    <a routerLink="/" class="logo">Logo</a>
+    <nav>
+        <ul>
+            <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+            <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+            <li><a routerLink="/cart" routerLinkActive="active">Cart <span class="badge" *ngIf="cartTotalCount">{{ cartTotalCount }}</span></a></li>
+        </ul>
+    </nav>
+</header>

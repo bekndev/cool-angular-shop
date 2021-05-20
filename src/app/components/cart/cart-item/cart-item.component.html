@@ -1,0 +1,6 @@
+<div class="cart-item">
+    <div class="cart-item-title">{{ item.title }}</div>
+    <div class="cart-item-count"><i class="minus" (click)="decrement()">-</i>{{ item.count }}<i class="plus" (click)="increment()">+</i></div>
+    <div class="cart-item-price">${{ item.price }}</div>
+    <div class="cart-item-remove"><button (click)="removeItem()">x</button></div>
+</div>

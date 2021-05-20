@@ -1,0 +1,90 @@
+{
+    "products": [
+        {
+          "id": 1,
+          "title": "Apple",
+          "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+          "category": "Fruits",
+          "variations": {
+            "colors" : [
+              {
+                "color": "red",
+                "price": 1.99
+              },
+              {
+                "color": "green",
+                "price": 1.89
+              },
+              {
+                "color": "yellow",
+                "price": 1.79
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Banana",
+          "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+          "category": "Fruits",
+          "variations": {
+            "sizes" : [
+              {
+                "size": "S",
+                "price": 1.99
+              },
+              {
+                "size": "M",
+                "price": 1.89
+              },
+              {
+                "size": "X",
+                "price": 1.79
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "title": "Peach",
+          "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+          "category": "Citrus",
+          "price": 2.49
+        },
+        {
+          "id": 4,
+          "title": "Kiwi",
+          "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+          "category": "Citrus",
+          "price": 3.99
+        },
+        {
+          "id": 5,
+          "title": "Milk",
+          "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+          "category": "Foods",
+          "price": 3.49
+        },
+        {
+          "id": 6,
+          "title": "Bread",
+          "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+          "category": "Foods",
+          "price": 3.49
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Fruits"
+        },
+        {
+            "id": 2,
+            "name": "Citrus"
+        },
+        {
+            "id": 3,
+            "name": "Foods"
+        }
+    ]
+}

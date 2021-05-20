@@ -1,0 +1,4 @@
+<button (click)="changeVariation(variation)" [ngClass]='{active: currentVariation === variation}'>
+    {{variation['color'] && variation['color']}}
+    {{variation['size'] && variation['size']}}
+</button>

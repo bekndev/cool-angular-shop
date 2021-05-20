@@ -1,0 +1,7 @@
+<div>
+    <div class="cart-items">
+        <app-cart-item *ngFor="let item of cartItems" [item]="item"></app-cart-item>
+    </div>
+    <div *ngIf="cartTotalSum" class="cart-total">Total: <b>${{ cartTotalSum }}</b></div>
+    <div *ngIf="cartTotalSum" class="cart-checkout" (click)="checkout()"><button>Checkout</button></div>
+</div>

@@ -1,0 +1,4 @@
+<div class="filter-block">
+    Filter: <button (click)="selectCategory('all')" [ngClass]="{active: currentCategory === 'all'}">All</button>
+    <button *ngFor="let category of categories" (click)="selectCategory(category.name)" [ngClass]="{active: currentCategory === category.name}">{{ category.name }}</button>
+</div>

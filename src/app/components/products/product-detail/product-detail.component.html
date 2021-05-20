@@ -1,0 +1,12 @@
+<div class="product-card">
+    <div class="product-title">{{ title }}</div>
+    <div class="product-text">{{ product.body }}</div>
+    <div>
+        <app-product-variations class="product-variations" *ngIf="variations" [variations]="variations" [changeVariation]="changeVariation" [currentVariation]="currentVariation"></app-product-variations>
+    </div>
+    <div class="product-price">
+        <div>${{ price }}</div>
+        <button *ngIf="alreadyAdded" disabled>Already in Cart</button>
+        <button *ngIf="!alreadyAdded" (click)="addToCart(product)" class="add-to-cart">Buy</button>
+    </div>
+</div>
